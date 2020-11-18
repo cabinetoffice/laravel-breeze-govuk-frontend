@@ -1,0 +1,65 @@
+{
+    "name": "cabinetoffice/laravel-breeze-govuk-frontend",
+    "description": "A Laravel Breeze scaffolding for GOV.UK Frontend",
+    "keywords": [
+        "breeze",
+        "laravel",
+        "ui",
+        "design",
+        "design system",
+        "govuk",
+        "government",
+        "template",
+        "authentication",
+        "cabinetoffice",
+        "laravel-breeze-govuk-frontend"
+    ],
+    "homepage": "https://github.com/cabinetoffice/laravel-breeze-govuk-frontend",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Digital Communication, Cabinet Office and Number 10 Digital (MS)",
+            "email": "webmaster@cabinetoffice.gov.uk"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/filesystem": "^8.0",
+        "illuminate/support": "^8.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0",
+        "laravel/breeze": "^0.0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "CabinetOffice\\LaravelBreezeGovukFrontend\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CabinetOffice\\LaravelBreezeGovukFrontend\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CabinetOffice\\LaravelBreezeGovukFrontend\\LaravelBreezeGovukFrontendServiceProvider"
+            ],
+            "aliases": {
+                "LaravelBreezeGovukFrontend": "CabinetOffice\\LaravelBreezeGovukFrontend\\LaravelBreezeGovukFrontendFacade"
+            }
+        }
+    }
+}

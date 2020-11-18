@@ -1,0 +1,51 @@
+.gcs-alertpanel {
+    box-sizing: border-box;
+    clear: both;
+    border-left-style: solid;
+    border-color: #bfc1c3;
+    padding: 0.2em 0.7em;
+    margin-bottom: 0.78947em;
+}
+
+.gcs-alertpanel h2.govuk-heading-s {
+    font-size: 22px;
+    margin-bottom: 0.6em;
+    margin-top: 0.6em;
+}
+
+.gcs-alertpanel-border-wide {
+    border-left-width: 8px;
+
+    @include govuk-media-query($from: tablet) {
+        border-left-width: 10px;
+    }
+
+    @include govuk-media-query($from: desktop) {
+        border-left-width: 10px;
+    }
+}
+
+.gcs-alertpanel-border-wide.alert-info {
+    border-color: #2b8cc4;
+    background-color: #dbeff9;
+}
+
+.gcs-alertpanel-border-wide.alert-default {
+    border-color: #707577;
+    background-color: #f2f3f3;
+}
+
+.gcs-alertpanel-border-wide.alert-success {
+    border-color: #28a197;
+    background-color: #c6ece9;
+}
+
+.gcs-alertpanel-border-wide.alert-error {
+    border-color: #c42b2b;
+    background-color: #f3dede;
+}
+
+.gcs-alertpanel-border-wide.alert-warning {
+    border-color: #f87e3e;
+    background-color: #f3e5de;
+}
