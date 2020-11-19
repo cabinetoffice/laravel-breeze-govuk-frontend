@@ -12,11 +12,11 @@ See live examples of GOV.UK Frontend components, and guidance on when to use the
 ## Usage
 
 1. Fresh install Laravel and cd to your app directory.
-2. Install this preset via `composer require cabinetoffice/laravel-breeze-govuk-frontend --dev`. Laravel will automatically discover this package. You do not need to register the service provider.
+2. Install this package via `composer require cabinetoffice/laravel-breeze-govuk-frontend --dev`. Laravel will automatically discover this package. You do not need to register the service provider.
 3. Use `php artisan breeze:install-govuk` to install. 
 4. `npm install && npm run dev`
 5. You may need to carry out additional configurations and database migration depending on your set up.
-6. `php artisan serve` to run server and test preset.
+6. `php artisan serve` to run server and test.
 
 ### Dealing with Laravel Breeze installation error
 This package installs Laravel Breeze as part of its installation. If Laravel Breeze generates error this will be flagged and installation of this package will stop.
