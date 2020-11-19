@@ -67,11 +67,12 @@
                     {{ __('Register') }}
                 </button>
 
-                <a href="{{ route('login') }}">
-                    {{ __('Already registered?') }}
-                </a>
-
             </form>
+
+            <a href="{{ route('login') }}">
+                {{ __('Already registered?') }}
+            </a>
+
         </div>
     </div>
 
