@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.2
+
+Changed the licence information for the package.
+
 ## 0.5.1
 
 Fixed typos in Readme
