@@ -28,7 +28,7 @@
         "illuminate/filesystem": "^8.0",
         "illuminate/support": "^8.0",
         "ext-json": "*",
-        "laravel/breeze": "^0.0.5"
+        "laravel/breeze": "^0.1.0"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0",

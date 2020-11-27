@@ -6,7 +6,7 @@ GOV.UK Frontend contains the code you need to start building a user interface fo
 
 See live examples of GOV.UK Frontend components, and guidance on when to use them in your service, in the [GOV.UK Design System](https://design-system.service.gov.uk/).
 
-*Current version:* **GOV.UK Frontend 3.9.1**
+*The version of GOV.UK Frontend used:* **3.10.0**
 
 ## Usage
 

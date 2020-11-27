@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.3
+
+- Upgraded to GOV.UK Frontend v3.10.0
+- Upgraded to Laravel Breeze v0.1.0
+
 ## 0.5.2
 
 Changed the licence information for the package.
