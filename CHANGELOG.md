@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.5.4
+
+- Upgraded to GOV.UK Frontend v3.14.0
+- Upgraded to Laravel v8 or newer
+
 ## 0.5.3
 
 - Upgraded to GOV.UK Frontend v3.10.0
