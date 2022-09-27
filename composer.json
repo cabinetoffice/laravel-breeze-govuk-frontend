@@ -24,15 +24,15 @@
         }
     ],
     "require": {
-        "php": "^7.3|^8.0",
-        "illuminate/filesystem": "^8.0",
-        "illuminate/support": "^8.0",
+        "php": "^7.3|^8.*",
+        "illuminate/filesystem": ">=8.0",
+        "illuminate/support": ">=8.0",
         "ext-json": "*",
-        "laravel/breeze": "^0.1.0"
+        "laravel/breeze": ">=0.1.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^4.0",
-        "phpunit/phpunit": "^8.0"
+        "orchestra/testbench": ">=4.0",
+        "phpunit/phpunit": ">=8.0"
     },
     "autoload": {
         "psr-4": {

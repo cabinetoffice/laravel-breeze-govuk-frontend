@@ -44,7 +44,7 @@ class InstallCommand extends Command
         $this->updateNodePackages(function ($packages) {
 
             return [
-                    'govuk-frontend' => '^3.10.0',
+                    'govuk-frontend' => '^3.14.0',
                     "cross-env" => "^7.0",
                     "laravel-mix" => "^5.0.9",
                     "resolve-url-loader" => "^2.3.1",
